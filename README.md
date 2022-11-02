@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="sudoku-blankgrid.png" alt="Logo" width="1800" height="200">
+    <img src="sudoku-blankgrid.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Python-Sudoku-Solver</h3>
