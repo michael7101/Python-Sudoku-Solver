@@ -46,17 +46,9 @@
 * [pandas][pandas-url]
 
 
-
-## Results
-
-![View Interactive Report](Code/Power_BI/Images/job-data-0.jpg)
-
-![View Interactive Report](Code/Power_BI/Images/job-data-1.jpg)
-
-[View Interactive Report][View-Interactive-Report-url]
-
-
 ### App
+
+<div style="width: 700px; height: 600px; overflow: hidden;"><iframe src="https://mecsimcalc.com/app/3166730/edit?step=5" width="100%" height="100%" title="MecSimCalc" style="position:relative; left:-45px; top:-48px;" frameborder="0"></iframe></div>
 
 
 ### Code
