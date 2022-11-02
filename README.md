@@ -20,8 +20,8 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a>
     <li><a href="#built-with">Built With</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#app">App</a></li>
+    <li><a href="#code">Code</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -35,8 +35,6 @@
 ## About The Project
 
  The objective of this project is to scrape data for jobs site to analyze and rank the top skill employer our seeking to fill Data Analysis job positions in Canada.
-
-
 
 
 
@@ -58,12 +56,10 @@
 [View Interactive Report][View-Interactive-Report-url]
 
 
-### Process
+### App
 
 
-
-## What's Next
-
+### Code
 
 
 ## Contributing
