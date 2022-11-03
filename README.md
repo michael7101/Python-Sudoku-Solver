@@ -51,7 +51,7 @@
 " target="_blank"><img src="https://github.com/michael7101/Python-Sudoku-Solver/blob/main/Appimage.png" 
 alt="IMAGE ALT TEXT HERE" width="940" height="528" border="10" /></a>
 
-https://mecsimcalc.com/app/3166730/sudoku_solver
+[Try App][Try-App-url]
 
 
 ### Code
@@ -110,4 +110,5 @@ Project Link: [https://github.com/michael7101/Data-Analyst-Jobs-in-Canada](https
 [MecSimCalc-url]: https://mecsimcalc.com/
 [pandas-url]: https://pandas.pydata.org/
 [LICENSE-url]: https://github.com/michael7101/Data-Analyst-Jobs-in-Canada/blob/b346a5f7ece8aab1d0bc7154f22f8102ac948367/LICENSE
+[Try-App-url]: https://mecsimcalc.com/app/3166730/sudoku_solver
 
