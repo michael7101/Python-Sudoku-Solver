@@ -47,13 +47,12 @@
 
 
 ### App
-<a href="https://mecsimcalc.com/app/3166730/sudoku_solver
-" target="_blank"><img src="https://github.com/michael7101/Python-Sudoku-Solver/blob/main/Appimage.png" 
+<a href="https://mecsimcalc.com/app/3166730/sudoku_solver" 
+   target="_blank"><img src="https://github.com/michael7101/Python-Sudoku-Solver/blob/main/Appimage.png" 
 alt="IMAGE ALT TEXT HERE" width="700" height="500" border="10" /></a>
 
-[Try App][Try-App-url]
+<p align="center">(<a href="https://mecsimcalc.com/app/3166730/sudoku_solver">Try App</a>)</p>
 
-<h3 align="center">[Try App][Try-App-url]</h3>
 
 ### Code
 
