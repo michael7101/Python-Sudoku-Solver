@@ -47,8 +47,11 @@
 
 
 ### App
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMDk0NjE1NDgtY2IyOC00OTgzLWE0YzktMTJkYTY2ODlhOGMzIiwidCI6Ijg4ZTM4Mzc0LTNjY2MtNDc1Zi1iY2NmLTlkYjg5NGM4MDI4ZiJ9&pageName=ReportSection3965678a7317d91d7e4c
+" target="_blank"><img src="https://github.com/michael7101/Data-Analyst-Jobs-in-Canada/blob/fde14a687a6da6a81863e9a0429ba7ed491c5fd2/Code/Power_BI/Images/job-data-0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="940" height="528" border="10" /></a>
 
-<div style="width: 700px; height: 600px; overflow: hidden;"><iframe src="https://mecsimcalc.com/app/3166730/edit?step=5" width="100%" height="100%" title="MecSimCalc" style="position:relative; left:-45px; top:-48px;" frameborder="0"></iframe></div>
+https://mecsimcalc.com/app/3166730/sudoku_solver
 
 
 ### Code
