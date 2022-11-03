@@ -53,6 +53,7 @@ alt="IMAGE ALT TEXT HERE" width="700" height="500" border="10" /></a>
 
 [Try App][Try-App-url]
 
+<h3 align="center">Python-Sudoku-Solver</h3>
 
 ### Code
 
