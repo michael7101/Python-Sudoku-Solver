@@ -141,7 +141,6 @@ print_board(board)
 solve(board)
 print("___________________")
 print_board(board)
-
 ```
 
 ## Contributing
@@ -158,8 +157,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 
-
-S
 <!-- LICENSE -->
 ## License
 
@@ -183,7 +180,6 @@ Project Link: [https://github.com/michael7101/Data-Analyst-Jobs-in-Canada](https
 * [Techwith Tim](Tech-with-Tim-url)
 * [Best-README-Template](Best-README-Template-url)
 * [MecSimCalc](mecsimcalc-url)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
