@@ -141,7 +141,6 @@ print_board(board)
 solve(board)
 print("___________________")
 print_board(board)
-
 ```
 
 ## Contributing
@@ -158,8 +157,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 
-
-S
 <!-- LICENSE -->
 ## License
 
@@ -181,9 +178,8 @@ Project Link: [https://github.com/michael7101/Data-Analyst-Jobs-in-Canada](https
 ## Acknowledgments
 
 * [Techwith Tim](Tech-with-Tim-url)
-* []()
-* []()
-
+* [Best-README-Template](Best-README-Template-url)
+* [MecSimCalc](mecsimcalc-url)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -199,4 +195,5 @@ Project Link: [https://github.com/michael7101/Data-Analyst-Jobs-in-Canada](https
 [LICENSE-url]: https://github.com/michael7101/Data-Analyst-Jobs-in-Canada/blob/b346a5f7ece8aab1d0bc7154f22f8102ac948367/LICENSE
 [Try-App-url]: https://mecsimcalc.com/app/3166730/sudoku_solver
 [Tech-with-Tim-url]: https://www.techwithtim.net/tutorials/python-programming/sudoku-solver-backtracking/
-
+[Best-README-Template-url]: https://github.com/othneildrew/Best-README-Template
+[mecsimcalc-url]: https://mecsimcalc.com/
