@@ -33,7 +33,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+The Python Sudoku Solver is a program that can solve a Sudoku puzzle using a backtracking algorithm. The program is built with Python, Jupyter, MecSimCalc, and pandas libraries. The app version of the program is hosted on mecsimcalc.com, which allows users to input their own Sudoku puzzles and see the solution.
 
+The program works by recursively trying different numbers in each empty cell until a solution is found. It checks if each number is valid in the current cell by checking if it appears in the same row, column, or 3x3 box as the cell. If a number is not valid, it backtracks to the previous cell and tries the next number. If no number is valid, it backtracks again until a valid number can be found.
+
+The Python Sudoku Solver was developed by Michael Jean and was submitted to the October hackathon, where it placed fourth. The source code is based on a tutorial by Tech With Tim. The app version was developed using the MecSimCalc platform, which allows users to create and share their own simulations and calculators.
 
 
 
@@ -147,13 +151,7 @@ solve(board)  # solves the sudoku board
 print("___________________")  # separator between initial and solved board
 print_board(board)  # prints the solved sudoku board
 ```
-This is a Python program that solves a Sudoku puzzle using backtracking. The program first finds an empty cell, then iterates over the numbers 1-9 to find a valid number to place in that cell. If no valid number is found, it backtracks to the previous cell and tries a different number.
 
-The program uses a helper function valid to check if a number can be placed in a given position, based on whether the number already appears in the same row, column, or 3x3 box.
-
-The program also includes a print_board function that formats the puzzle in a user-friendly way.
-
-Overall, the program demonstrates the use of backtracking to solve a complex problem, as well as the importance of helper functions in breaking down complex tasks.
 
 ## Contributing
 
