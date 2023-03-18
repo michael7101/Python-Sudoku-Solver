@@ -58,6 +58,7 @@ alt="IMAGE ALT TEXT HERE" width="940" height="528" border="100" align="center"/>
 ```
 # code sources https://www.techwithtim.net/tutorials/python-programming/sudoku-solver-backtracking/
 
+# Define the sudoku board
 board = [
     [7,8,0,4,0,0,1,2,0],
     [6,0,0,0,7,5,0,0,9],
@@ -70,26 +71,30 @@ board = [
     [0,4,9,2,0,6,0,0,7]
 ]
 
-
+# Function to solve the sudoku puzzle recursively
 def solve(bo):
+    # Find the first empty cell in the board
     find = find_empty(bo)
-    if not find:
+    if not find:  # If there are no empty cells, the board is solved
         return True
     else:
         row, col = find
 
+    # Try each number from 1 to 9
     for i in range(1,10):
-        if valid(bo, i, (row, col)):
-            bo[row][col] = i
+        if valid(bo, i, (row, col)):  # Check if the number is valid in this cell
+            bo[row][col] = i  # If the number is valid, place it in the cell
 
-            if solve(bo):
+            if solve(bo):  # Recursively call the solve function with the updated board
                 return True
 
+            # If the recursive call returns False, the number was not valid
+            # so reset the cell to 0 and try the next number
             bo[row][col] = 0
 
-    return False
+    return False  # If no numbers are valid in this cell, backtrack to the previous cell
 
-
+# Function to check if a number is valid in a cell
 def valid(bo, num, pos):
     # Check row
     for i in range(len(bo[0])):
@@ -112,35 +117,43 @@ def valid(bo, num, pos):
 
     return True
 
-
+# Function to print the sudoku board
 def print_board(bo):
     for i in range(len(bo)):
-        if i % 3 == 0 and i != 0:
+        if i % 3 == 0 and i != 0:  # prints horizontal line after every 3 rows
             print("- - - - - - - - - - - - - ")
 
         for j in range(len(bo[0])):
-            if j % 3 == 0 and j != 0:
+            if j % 3 == 0 and j != 0:  # prints vertical line after every 3 columns
                 print(" | ", end="")
 
-            if j == 8:
+            if j == 8:  # end of row
                 print(bo[i][j])
             else:
-                print(str(bo[i][j]) + " ", end="")
+                print(str(bo[i][j]) + " ", end="")  # prints number and a space
 
 
 def find_empty(bo):
     for i in range(len(bo)):
         for j in range(len(bo[0])):
-            if bo[i][j] == 0:
-                return (i, j)  # row, col
+            if bo[i][j] == 0:  # checks if cell is empty
+                return (i, j)  # returns the empty cell's row and column indices
 
-    return None
+    return None  # if no empty cell is found, returns None
 
-print_board(board)
-solve(board)
-print("___________________")
-print_board(board)
+
+print_board(board)  # prints the initial sudoku board
+solve(board)  # solves the sudoku board
+print("___________________")  # separator between initial and solved board
+print_board(board)  # prints the solved sudoku board
 ```
+This is a Python program that solves a Sudoku puzzle using backtracking. The program first finds an empty cell, then iterates over the numbers 1-9 to find a valid number to place in that cell. If no valid number is found, it backtracks to the previous cell and tries a different number.
+
+The program uses a helper function valid to check if a number can be placed in a given position, based on whether the number already appears in the same row, column, or 3x3 box.
+
+The program also includes a print_board function that formats the puzzle in a user-friendly way.
+
+Overall, the program demonstrates the use of backtracking to solve a complex problem, as well as the importance of helper functions in breaking down complex tasks.
 
 ## Contributing
 
